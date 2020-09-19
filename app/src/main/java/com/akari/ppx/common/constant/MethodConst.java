@@ -1,0 +1,45 @@
+package com.akari.ppx.common.constant;
+
+public interface MethodConst {
+    String versionCode = "VERSION_CODE";
+    String saveImage = "onDownload";
+    String saveVideo = "doDownload";
+    String removeRestrictions1 = "isCanDownload";
+    String removeRestrictions2 = "getCanDownload";
+    String removeAds1 = "getStoryList";
+    String removeAds2 = "getAdInfo";
+    String removeAds3 = "c";
+    String removeAds4 = "b";
+    String removeTeenagerModeDialog = "tryShowTeenagerModeDialog";
+    String disableUpdate = "checkUpdateByAutomatic";
+    String diyCategoryList1 = "setCategoryItems";
+    String diyCategoryList2 = "getDefaultChannel";
+    String diyCategoryList3 = "c";
+    String diyCategoryList4 = "showLiveTab";
+    String showRegisterEscapeTime1 = "getAchievements";
+    String showRegisterEscapeTime2 = "a";
+    String copyItem1 = "getShareInfo";
+    String copyItem2 = "b";
+    String unlockIllegalWord1 = "invoke";
+    String unlockIllegalWord2 = "getReplaceMap";
+    String unlockDanmaku = "getUserPrivilege";
+    String unlock1080P = "b";
+    String removeSendGodLimit = "getSendGodStatus";
+    String disableDoubleLayoutStyle = "invoke";
+    String bypassDeviceLimit1 = "a";
+    String bypassDeviceLimit2 = "c";
+    String bypassDeviceLimit3 = "a";
+    String bypassDeviceLimit4 = "putCommonParams";
+    String autoBrowseEnable1 = "onCreateView";
+    String autoBrowseEnable2 = "onChanged";
+    String autoDiggAndCommentEnable = "onPageSelected";
+    String autoDiggPause = "diggCell";
+    String autoCommentPause = "call";
+    String modifyShareCounts = "shareCell";
+    String removeBottomView = "channelFragmentIsSelected";
+    String removePublishButton = "onWindowFocusChanged";
+    String removeDetailBottomView = "a";
+    String modifyMessageCounts = "fromJson";
+    String zbEnable = "setUserInfo";
+    String showError = "onWindowFocusChanged";
+}
